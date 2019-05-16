@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:500,900");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(250, 118, 118);
+}
+.card {
+  position: absolute;
+  width: 300px;
+  height: 550px;
+
+  border-radius: 24px;
+  background: url("rt.jpg") no-repeat center center;
+  background-size: 200%;
+  transition: 0.3s;
+  overflow: hidden;
+  border: 5px solid #fff;
+}
+.txtBox {
+  position: absolute;
+  width: 100%;
+  height: 102%;
+  transition: 0.3s ease-in-out;
+  background: rgb(250, 118, 118);
+  border-top-color: #fff;
+  border-top-width: 2px;
+  border-top-style: solid;
+  bottom: 0;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.13);
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: rgb(250, 118, 118);
+  cursor: pointer;
+  transition: 0.3s;
+}
+h1,
+h2 {
+  position: absolute;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  transform: translateX(-50%);
+  left: 50%;
+  text-align: center;
+  display: none;
+}
+p {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #fff;
+  padding: 0 50px;
+  font-size: 1.3em;
+  text-transform: capitalize;
+  display: none;
+}
+strong {
+  text-transform: uppercase;
+}
